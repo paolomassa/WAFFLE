@@ -137,7 +137,7 @@ endfor
 
 ;;************************************* SAVE RESULTS ***************************************;;
 
-results_folder=folder + "/results/"
+results_folder=folder + "/IDL/results/"
 if ~file_exist(results_folder) then file_mkdir, results_folder
 save, rml_dem, rml_dem_error, aia_img, aia_error, TR, filename=results_folder + "/results.sav" 
 
