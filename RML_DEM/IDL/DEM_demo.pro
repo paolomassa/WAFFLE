@@ -7,7 +7,7 @@
 ;; INSERT PATH OF THE FOLDER
 
 folder = ""
-add_path, folder + "rml"
+add_path, folder + "/IDL/rml"
 
 ;;******************************** READ AIA FITS FILES ******************************************;;
 
